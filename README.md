@@ -1,9 +1,5 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](https://bit.ly/cc-by-nc-sa-40)
 
-# Template repository
-
-This is a template repository for programming laboratory works in BSUIR.
-
 # Usage
 
 To compile and run a program use:
@@ -13,11 +9,31 @@ $ ./build.sh gcc src/<filename>
 
 Executable will be started automatically. It can be found in `build/scr/` folder.
 
-# Semester \<#\> lab \<#\>
+# Semester \<1\> lab \<1\>
 
-## Task \<#\>
+## Task \<1\>
 
-Task description.
+The traffic lights for pedestrians is programmed as follows: at the beginning of each hour a green signal is on for three minutes, then red is on for two minutes, green again for three minutes, etc. Enter a real number t, which represents the time in minutes, elapsed since the beginning of the next hour. Determine what color signal is on for pedestrians at this moment.
+
+Original (ru):
+
+Работа светофора для пешеходов запрограммирована следующим образом: в начале каждого часа в течение трех минут горит зеленый сигнал, затем в течение двух минут — красный, в течение трех минут — опять зеленый и т. д. Ввести вещественное число t, означающее время в минутах, прошедшее с начала очередного часа. Определить, сигнал какого цвета горит для пешеходов в этот момент.
+
+## Task \<2\>
+
+A two-digit number is given. Determine if a digit is included in it.
+
+Original (ru):
+
+Дано двузначное число. Определить, входит ли в него цифра.
+
+## Task \<3\>
+
+Digits of two two-digit numbers are given, written as a2a1 and b2b1, where a1 and b1 are the number of ones, a2 and b2 are the number of tens. Get the digits of a number equal to the difference of the given numbers. Number-decreasing, number-subtracted and number-difference cannot be determined.
+
+Original (ru):
+
+Даны цифры двух двузначных чисел, записываемых в виде a2a1 и b2b1, где a1 и b1 — число единиц, a2 и b2 — число десятков. Получить цифры числа, равного разности заданных чисел. Число-уменьшаемое, число-вычитаемое и число-разность не определять.
 
 # Credits
 
